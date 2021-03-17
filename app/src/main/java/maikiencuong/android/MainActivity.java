@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
         /*activity 1*/
 
-        /*setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
         bgr=findViewById(R.id.background);
-        bgr.setBackgroundResource(R.drawable.background);*/
+        bgr.setBackgroundResource(R.drawable.background);
 
 
 
@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
 
         /*activity 5*/
 
-        setContentView(R.layout.activity_main5);
+        /*setContentView(R.layout.activity_main5);
         bgr=findViewById(R.id.background);
-        bgr.setBackgroundResource(R.drawable.background3);
+        bgr.setBackgroundResource(R.drawable.background3);*/
 
 
 
