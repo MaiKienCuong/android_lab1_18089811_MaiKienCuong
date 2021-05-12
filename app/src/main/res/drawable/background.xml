@@ -13,7 +13,8 @@
           android:endY="777"
           android:endX="206.5"
           android:type="linear">
-        <item android:offset="0" android:color="#FFC7F4F6"/>
+        <item android:offset="0" android:color="#FF00CCF9"/>
+        <!--<item android:offset="0" android:color="#FFC7F4F6"/>-->
         <item android:offset="0.302083" android:color="#FFD1F4F6"/>
         <item android:offset="0.577681" android:color="#FFE5F4F5"/>
         <item android:offset="1" android:color="#FF00CCF9"/>

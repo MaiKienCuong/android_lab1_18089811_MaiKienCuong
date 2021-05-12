@@ -8,13 +8,14 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
 
     ConstraintLayout bgr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main2);
         getSupportActionBar().hide();
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
@@ -22,9 +23,7 @@ public class MainActivity extends AppCompatActivity {
             w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         }
 
-        setContentView(R.layout.activity_main);
-        bgr=findViewById(R.id.background);
-        bgr.setBackgroundResource(R.drawable. background);
-
+        bgr = findViewById(R.id.background);
+        bgr.setBackgroundResource(R.drawable.background);
     }
 }

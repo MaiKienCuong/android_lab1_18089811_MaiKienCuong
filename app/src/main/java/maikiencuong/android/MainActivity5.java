@@ -1,14 +1,14 @@
 package maikiencuong.android;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
-
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+
+public class MainActivity5 extends AppCompatActivity {
 
     ConstraintLayout bgr;
 
@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
             w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         }
 
-        setContentView(R.layout.activity_main);
-        bgr=findViewById(R.id.background);
-        bgr.setBackgroundResource(R.drawable. background);
+        setContentView(R.layout.activity_main5);
+        bgr = findViewById(R.id.background);
+        bgr.setBackgroundResource(R.drawable.background3);
 
     }
 }
